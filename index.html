@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.1.0.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Favorite Things</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-10 col-sm-push-1">
+          <h1>Favorite Things</h1>
+          <form id="userInfo">
+            <div class="form-group">
+              <label for="userName">Enter your name</label>
+              <input id="userName" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="userFood">What is your favorite food?</label>
+              <input id="userFood" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="userAnimal">What is your favorite animal?</label>
+              <input id="userAnimal" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="userDrink">What is your favorite drink?</label>
+              <input id="userDrink" class="form-control" type="text">
+            </div>
+              <button type="submit" class="btn btn-primary" id="formSubmit">Submit</button>
+          </form>
+          <ul>
+            <li id="answerOne"></li>
+            <li id="answerTwo"></li>
+            <li id="answerThree"></li>
+            <li id="answerFour"></li>
+          </ul>
+          <ol id="iceCreams">
+          </ol>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
